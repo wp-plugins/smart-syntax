@@ -25,7 +25,7 @@ function smart_syntax_settings_page()
 ?>
 			<div class="icon32" id="icon-themes"><br></div>
 			<div id="smart-syntax-settings-page" class="wrap">
-			<h2>Smart Synax Shortcode Plugin Settings</h2>
+			<h2>Smart Synax Plugin Settings</h2>
 	    <?php
     // $_POST needs to be sanitized by version 1.0
     if (isset($_POST['submit']) && check_admin_referer('smart_syntax_action', 'smart_syntax_ref')) {
