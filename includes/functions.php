@@ -16,7 +16,7 @@ function smart_syntax_prettify_script()
     global $comment;
     $content      = $post->post_content . $comment->comment_content;
     $smart_syntax = get_option('_smart_syntax_options');
-    $output       = preg_match_all('/(<pre)(.+)(<code.+class.+[\'"])([^\'"]+)([\'"]>)/i', $post->post_content, $matches);
+    $output       = preg_match_all('/(<pre)(.+)(<code.+class.+[\'"])([^\'"]+)([\'"]>)/i', $content, $matches);
     // find language tags
     if (!empty($matches[0]) && isset($matches[0])) {
         $langs = remove_dupe_langs($matches[4]);
