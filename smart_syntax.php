@@ -3,7 +3,7 @@
  * Plugin Name: Smart Syntax
  * Plugin URI:  http://www.smartpixels.net/products/smart-syntax/
  * Description: Prettify syntax highlighting for jetpack markdown fenced code blocks
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Smartpixels
  * Author URI:  http://www.smartpixels.net
  * License:     GPLv2+
